@@ -57,21 +57,18 @@ public class Lab4
            arr[0]=newVal;
 
       
-        
-          for(int i=count-1;i>=0;i--){
+          int i;
+          for( i=count-1;i>=0;i--){
                 if(newVal<arr[i])
                     {
                         arr[i+1]=arr[i];
                        
                         
                     }
-                    if(newVal>arr[i])
-                    { 
-                        arr[i+1]=newVal;
-                        
-
-                    }
+                  
         }
+        
+        arr[i+1]=newVal;
                     
 
               
